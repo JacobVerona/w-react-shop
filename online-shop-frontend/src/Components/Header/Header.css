@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    border-bottom: 1px solid #2F2FA2;
+    flex-wrap: wrap;
+    background-color: #4848d0;
+    padding-bottom: 0.5%;
+}
+
+.left-part {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.right-part {
+    flex-wrap: wrap;
+    flex: 1;
+    display: flex;
+}
+
+.react-dropdown-h {
+    font-size: 14px;
+}
