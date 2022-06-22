@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
+</head>
+<body>
+<script>
+getText();
+async function getText() {
+    // получаем объект ответа
+    const response = await fetch("/hello");
+    // из объекта ответа извлекаем текст ответа
+    const responseText = await response.text();
+    console.log(responseText);
+}
+</script>
+</body>
+</html>

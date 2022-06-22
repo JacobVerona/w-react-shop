@@ -1,0 +1,30 @@
+C:\WINDOWS\system32>node -v
+v16.1.0
+
+//
+
+C:\WINDOWS\system32>node
+Welcome to Node.js v16.1.0
+Type ".help" for more information.
+> 2+6
+8
+>
+
+//
+
+> console.log("Hello NodeJS");
+Hello NodeJS
+undefined
+>
+
+//
+
+> function square(x){return x * x;}
+undefined
+>square(5)
+25
+>
+
+//
+
+node app.js
